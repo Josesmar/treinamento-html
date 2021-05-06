@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <p><a href="index.html">Página inicial</a></p>    
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+    <!--Colocar poster imagem de fundo do video-->
+     <video width="560" poster="teste/teste" controls autoplay loop> 
+        <source src="video/Car Drift Racing.mp4" type="video/mp4">
+        <source src="video/Car Drift Racing.mp4" type="video/mpv">
+        <source src="video/Car Drift Racing.mp4" type="video/webm">        
+        <source src="video/Car Drift Racing.mp4" type="video/ogg">                
+        <p>Seu navegador não tem compatibilidade com a reprodução do video</p>
+     </video>
+    <!--MP4,M4V, WEBM,0GV-->    
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+</body>
+</html>
